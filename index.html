@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>training-it</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/runner16.png">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="index.html">HOME</a>
+            <a href="pages/exercicios.html">EXERCICIOS</a>
+            <a href="pages/sobre.html">SOBRE</a>
+        </div>
+
+        <div class="conteudo">
+            <div class="rotina">
+                <div class="rotina-header">
+                <!-- <img src="assets/images/exercise.png" alt="Logo">  -->
+
+                    <h2>Bem-vindo! Sua plataforma fitness Online</h2>      
+                </div>
+
+                <div class="conteudo-rotina">
+
+                    <div class="header-rotina-usuario">
+                        <img style="width: 100px; margin-left: 50px;" src="assets/images/rotina.png" alt="">
+                       
+                        <h1 class="h1-rotina" style="margin-right: 200px;">Sua rotina:</h1>
+                        
+                        
+                    </div>
+                    <div class="datas">
+                        <p class="p-valor-data" id=valor-data></p>
+                        
+                        <p class="p-valor-data" id=valor-data-from></p>
+                    </div>
+                        
+
+                    <div class="card-rotina">
+                        <div class="dias-rotina">
+                            <span class="span-dia-rotina">Segunda: </span>
+                            <span class="span-dia-rotina">Terça: </span>
+                            <span class="span-dia-rotina">Quarta: </span>
+                            <span class="span-dia-rotina">Quinta: </span>
+                            <span class="span-dia-rotina">Sexta: </span>
+                        </div>
+
+                        <div class="valores-rotinas">
+                            <p class="p-valor-rotina" id=valor-segunda></p>
+                            <p class="p-valor-rotina" id=valor-terca></p>
+                            <p class="p-valor-rotina" id=valor-quarta></p>
+                            <p class="p-valor-rotina" id=valor-quinta></p>
+                            <p class="p-valor-rotina" id=valor-sexta></p>
+                        </div>  
+                                            
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="criar-rotina">
+                <h1> Defina sua rotina </h1>
+                <form class="form-exercicios" action="" >
+                    <label class="label-form-exercicios" for="">Segunda-feira</label>
+                    <select class="select-form-exercicios" name="exercicio-segunda" id="exercicio-segunda">
+                        <option value="0" id="option-0" selected disabled>Selecione um exercício...</option>
+                        <option value="">Caminhar</option>
+                        <option value="">Correr</option>
+                        <option value="">Barra fixa</option>
+                        <option value="">Abdominal</option>
+                        <option value="">Flexão</option>
+                    </select>
+
+                    <label class="label-form-exercicios" for="">Terça-feira</label>
+                    <select class="select-form-exercicios" name="exercicio-terca" id="exercicio-terca">
+                        <option value="0" selected disabled>Selecione um exercício...</option>
+                        <option value="">Caminhar</option>
+                        <option value="">Correr</option>
+                        <option value="">Barra fixa</option>
+                        <option value="">Abdominal</option>
+                        <option value="">Flexão</option>
+                    </select>
+
+                    <label class="label-form-exercicios" for="">Quarta-feira</label>
+                    <select class="select-form-exercicios" name="exercicio-quarta" id="exercicio-quarta">
+                        <option value="0" selected disabled>Selecione um exercício...</option>
+                        <option value="">Caminhar</option>
+                        <option value="">Correr</option>
+                        <option value="">Barra fixa</option>
+                        <option value="">Abdominal</option>
+                        <option value="">Flexão</option>
+                    </select>
+
+                    <label class="label-form-exercicios" for="">Quinta-feira</label>
+                    <select class="select-form-exercicios" name="exercicio-quinta" id="exercicio-quinta">
+                        <option value="0" selected disabled>Selecione um exercício...</option>
+                        <option value="">Caminhar</option>
+                        <option value="">Correr</option>
+                        <option value="">Barra fixa</option>
+                        <option value="">Abdominal</option>
+                        <option value="">Flexão</option>
+                    </select>
+
+                    <label class="label-form-exercicios" for="">Sexta-feira</label>
+                    <select class="select-form-exercicios" name="exercicio-sexta" id="exercicio-sexta">
+                        <option value="0" id="option-0" selected disabled>Selecione um exercício...</option>
+                        <option value="">Caminhar</option>
+                        <option value="">Correr</option>
+                        <option value="">Barra fixa</option>
+                        <option value="">Abdominal</option>
+                        <option value="">Flexão</option>
+                    </select>
+
+                    <button onclick="cadastrarRotina()" type="button" id="button-salvar">Salvar</button>
+                    <button onclick="clearSelect()" type="button">Cancelar</button>
+                    
+                </form>
+
+                <div class="footer">
+                    <p class="p-footer">Sábado e domingo:</p>
+                    <img class="img-footer" src="assets/images/tempo-de-descanso.png" alt="Logo"> 
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

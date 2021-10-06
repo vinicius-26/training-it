@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    font-family: Poppins;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 24px;
+}
+
+body{
+    background-color: rgb(230, 230, 236);
+}
+
+.container{
+    width: 100wh;
+    height: 100vh;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    background-color: #8257E5;
+    height: 60px;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #F0F0F7;
+    margin-right: 30px;
+    margin-left: 30px;
+    transition: 0.2s;
+}
+
+.menu a:hover{
+    color: rgb(161, 161, 161);
+}
+
+.conteudo{
+    display: flex;
+}
+
+.rotina{
+    width: 50%;
+}
+
+.rotina-header{
+    display: flex;
+    align-items: baseline;
+}
+
+.rotina h2{
+    margin-top: 60px;
+    display: flex;
+    color: #32264D;
+    width: 100%;
+    margin-left: 220px;
+}
+
+.criar-rotina{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.criar-rotina h1{
+    margin-bottom: 10px;
+    color: #32264D;
+} 
+
+.form-exercicios button{
+    color: white;
+    background: rgb(38, 173, 38);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    padding: 7px;
+    margin-top: 40px;
+    transition: 0.2s;
+}
+
+.form-exercicios button:hover{
+    background: green;
+}
+
+.form-exercicios button:last-child{
+    color: white;
+    background: rgb(216, 21, 21);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    padding: 7px;
+    margin-top: 40px;
+    transition: 0.2s;
+}
+
+.form-exercicios button:last-child:hover{
+    background: rgb(163, 15, 15);
+}
+
+
+
+.input-form-exercicios{
+    width: 60%;
+    display: block;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(233, 233, 236);
+    border: 1px solid #E6E6F0;
+    outline: 0;
+    padding: 0 1.6rem;
+    font-size: 15px;
+}
+
+.input-form-exercicios:focus{
+    border-bottom: 2px solid #8257E5;
+    margin-bottom: 2px;
+}
+
+.label-form-exercicios{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.select-form-exercicios{
+    width: 60%;
+    display: block;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(233, 233, 236);
+    border: 1px solid #E6E6F0;
+    outline: 0;
+    padding: 0 1.6rem;
+    font-size: 15px;
+}
+
+.select-form-exercicios:focus{
+    border-bottom: 2px solid #8257E5;
+    margin-bottom: 2px;
+}
+
+.conteudo-rotina h1{
+    margin: 40px;
+    font-size: 40px;
+}
+
+
+/* Cabeçalho da rotina do usuario */
+.header-rotina-usuario{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    margin-left: 180px;
+}
+
+.h1-rotina{
+    color: rgb(140, 139, 143);
+}
+
+.img-conteudo-rotina-usuario{
+    width: 50%;
+    display: flex;
+    margin-left: 60px;
+}
+
+/* Rodapé dos dias da semana */
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.p-footer{
+    color: rgb(140, 139, 143);
+    display: flex;
+    font-size: 22px;
+}
+
+.img-footer{
+    width: 60px;
+    display: flex;
+}
+
+.card-rotina{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 210px;
+    border-radius: 5px;
+    border: 2px solid #32264D;
+    width: 45%;
+}
+
+/* Div que tem os nomes de cada dia da rotina */
+.dias-rotina{
+    display: block;
+}
+
+.span-dia-rotina{
+    margin: 20px;
+    display: flex;
+    font-size: 25px;
+}
+
+/* Div que tem os valores de cada dia da rotina */
+.valores-rotinas{
+    display: block;
+}
+
+.p-valor-rotina{
+    margin: 20px;
+    display: flex;
+    color: #8257E5;
+    font-size: 25px;
+}
+
+.datas{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+}
+
+.p-valor-data{
+    color: rgb(140, 139, 143);
+    display: flex;
+}
+
+.ponto{
+    width: 20px;
+    height: 3px;
+    background-color: rgb(140, 139, 143);
+}
+    
+

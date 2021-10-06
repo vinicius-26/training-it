@@ -1,0 +1,43 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    margin: 0;
+    justify-content: center;
+    align-items: center
+}
+
+.content{
+    margin: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column
+}
+
+.content h1{
+    font-size: 50px;
+    margin: 40px
+}
+
+.content img{
+    width: 140px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.exercicios{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.exercicios strong{
+    display: flex;
+    margin-top: 30px;
+}
+
+.detalhesExercicio{
+    display: block;
+}
